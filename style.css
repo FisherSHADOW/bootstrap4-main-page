@@ -1,28 +1,87 @@
+
+
 body{
     background-color: #c7c6c0;
     background-image: url(./assets/images/bgg.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    height: 80vh !important;
 
 }
 .navbar-brand{
-    font-size: 40px;
+    font-size: 60px;
     z-index: 10;
+    color: #f6bd60 !important;
+    border-bottom: 3px solid white;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
 }
+
+
+nav{
+    background-color: #333533 !important;
+    box-shadow: 7px 1px 23px 4px rgba(0,0,0,0.77);
+-webkit-box-shadow: 7px 1px 23px 4px rgba(0,0,0,0.77);
+-moz-box-shadow: 7px 1px 23px 4px rgba(0,0,0,0.77);
+}
+
+a{
+    color: #cacaca !important;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+}
+a:hover{
+    transition: all ease-in-out 0.40s;
+  }
+  .vertical-nav a:hover{
+    color: #f6bd60 !important;
+    transform: scale(1.2);
+    padding-left: 60px;
+    border-bottom: #c7c6c0 2px solid;
+    display: inline-block;
+  }
+  #nav-link1{
+    transition: all ease-in-out 300ms;
+    color: #cacaca !important;
+}
+
+#nav-link1:hover{
+    color: #f6bd60 !important;
+    
+}
+#nav-link2{
+    transition: all ease-in-out 300ms;
+    color: #cacaca !important;
+}
+
+#nav-link2:hover{
+    color: #f6bd60 !important;
+    
+}
+
 
 
 #article{
     margin-top: 10rem;
 }
-
+#btn{
+    color: #eee4e1 !important;
+    background-color: #ffffff30;
+    
+}
   h1{
-    font-size: 7rem;
+    font-size: 6rem;
     border-bottom: solid #f6bd60 10px;
     color: #ffffff !important;
     border-bottom-right-radius: 20px;
     box-sizing: border-box;
     padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    
   }
   h2{
     font-size: 1.9rem;
@@ -30,10 +89,15 @@ body{
     background-color: #20202043;
     border-radius: 10px;
     box-sizing: border-box;
+    margin-top: -45px;
     padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
     
   }
-  
+
+
 
 
 
@@ -49,12 +113,18 @@ body{
   @media (min-width:992px) {    
     .vertical-nav {
         position: fixed;
-        top: 56px;
+        top: 0px;
         left: 0;
         width: 300px;
         height: 100%;
-        background-color: #f8f8f8;
+        background-color: #333533;
         overflow-y: auto;
-        padding-top: 30px
+        padding-top: 120px;
+        padding-left: 20px;
+        font-size: larger;
+        box-shadow: 7px 1px 23px 4px rgba(0,0,0,0.77);
+-webkit-box-shadow: 7px 1px 23px 4px rgba(0,0,0,0.77);
+-moz-box-shadow: 7px 1px 23px 4px rgba(0,0,0,0.77);
+
       }
   }
