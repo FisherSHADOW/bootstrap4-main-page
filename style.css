@@ -1,0 +1,60 @@
+body{
+    background-color: #c7c6c0;
+    background-image: url(./assets/images/bgg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.navbar-brand{
+    font-size: 40px;
+    z-index: 10;
+}
+
+
+#article{
+    margin-top: 10rem;
+}
+
+  h1{
+    font-size: 7rem;
+    border-bottom: solid #f6bd60 10px;
+    color: #ffffff !important;
+    border-bottom-right-radius: 20px;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  h2{
+    font-size: 1.9rem;
+    color: #eee4e1;
+    background-color: #20202043;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width:992px) {    
+    .vertical-nav {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        width: 300px;
+        height: 100%;
+        background-color: #f8f8f8;
+        overflow-y: auto;
+        padding-top: 30px
+      }
+  }
